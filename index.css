@@ -36,9 +36,9 @@
 .top-center .top-center-left .login{
     color: #f22e00;
 }
-.region ul{
+.region-ul{
     position: absolute;
-    width: 200px;
+    width: 100px;
     height: 200px;
     background-color: #fff;
     border: 1px solid #eee;
@@ -47,12 +47,13 @@
 }
 .region .region-ul li{
     float: none;
+    padding-left: 8px;
 }
 .search-wrapper{
     width: 100%;
     height: 97px;
     padding-top: 24px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .search-wrapper-center{
     width: 1190px;
@@ -225,4 +226,46 @@
    color: #ddd;
    font-size: 14px;
    line-height: 14px;
+}
+.tbh-nav{
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+}
+.tbh-nav .tbh-nav-center{
+    width: 1190px;
+    height: 30px;
+    margin: 0 auto;
+}
+.tbh-nav .tbh-nav-center h2{
+    float: left;
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff5000;
+    font-size: 16px;
+}
+.tbh-nav .tbh-nav-center ul{
+    float: left;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.tbh-nav .tbh-nav-center ul li{
+    float: left;
+    margin: 0 3px;
+    padding: 0 4px;
+    color: #fff;
+    text-align: center;
+}
+.tbh-nav .tbh-nav-center ul li a{
+    color: #fff;
+}
+.screen .screen-center{
+    width: 1190px;
+    height: 632px;
+    margin: 0 auto;
 }

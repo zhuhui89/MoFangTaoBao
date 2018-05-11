@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
     <title>淘宝网-淘！我喜欢</title>
 </head>
-
 <body>
     <div class="wrapper">
         <!-- 导航栏 -->
@@ -35,9 +33,13 @@
                     </li>
                 </ul>
                 <ul class="top-center-right">
-                    <li>
+                    <li class="region" id="region1">
                         <a href="#">我的淘宝</a>
                         <img src="img/xsj.png" alt="下三角">
+                        <ul class="region-ul" id="region-ul1">
+                            <li><a href="#">已买到的宝贝</a></li>
+                            <li><a href="#">我的足迹</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="#">
@@ -73,6 +75,7 @@
                 </ul>
             </div>
         </div>
+        <!-- 搜索 -->
         <div class="search-wrapper">
             <div class="search-wrapper-center">
                 <div class="logo">
@@ -89,7 +92,7 @@
                         </ul>
                     </div>
                     <div class="search-box">
-                        <form action="">
+                        <form>
                             <div class="btn">
                                 <button>搜索</button>
                             </div>
@@ -126,6 +129,52 @@
                 </div>
             </div>
         </div>
+        <!-- 内容导航 -->
+        <div class="tbh-nav">
+            <div class="tbh-nav-center">
+                <h2>主题市场</h2>
+                <ul>
+                    <li><a href="#">天猫</a></li>
+                    <li><a href="#">聚划算</a></li>
+                    <li><a href="#">天猫超市</a></li>
+                </ul>
+                <ul>
+                    <li>丨</li>
+                    <li><a href="#">淘抢购</a></li>
+                    <li><a href="#">电器城</a></li>
+                    <li><a href="#">司法拍卖</a></li>
+                    <li><a href="#">中国制造</a></li>
+                    <li><a href="#">兴农扶贫</a></li>
+                </ul>
+                <ul>
+                    <li>丨</li>
+                    <li><a href="#">飞猪旅行</a></li>
+                    <li><a href="#">智能生活</a></li>
+                    <li><a href="#">苏宁易购</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="screen">
+            <div class="screen-center">
+                <div class="main"></div>
+                <div class="col-right"></div>
+            </div>
+        </div>
     </div>
+    <script>
+        function XiaLa(liId,ulId){
+            var liR = document.getElementById(liId);
+            var ulR = document.getElementById(ulId);
+            liR.onmouseover = function(){
+                ulR.style.display = "block";
+            }
+            liR.onmouseout = function(){
+                ulR.style.display = "none";
+            }
+        }
+        XiaLa("region","region-ul");
+        XiaLa("region1","region-ul1")；
+    </script>
 </body>
 </html>
