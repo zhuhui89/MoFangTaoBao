@@ -474,9 +474,258 @@
 }
 .screen .screen-center .col-right{
     float: right;
-    width: 288px;
+    width: 290px;
     height: 632px;
     margin-top: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
+}
+.screen .screen-center .col-right .member{
+  width: 290px;
+  height: 132px;
+  padding: 3px 0 10px 0;
+}
+.screen .screen-center .col-right .member .member-bd{
+  width: 290px;
+  height: 91px;
+  position: relative;
+}
+.screen .screen-center .col-right .member .member-bd .member-pic{
+  width: 74px;
+  height: 56px;
+  margin: 0 auto;
+  text-align: center;
+}
+.screen .screen-center .col-right .member .member-bd .member-pic a{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #fff;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.screen .screen-center .col-right .member .member-bd .member-text{
+  width: 290px;
+  height: 17px;
+  line-height: 17px;
+  text-align: center;
+  font-size: 12px;
+}
+.screen .screen-center .col-right .member .member-bd .member-tjb{
+  width: 290px;
+  height: 17px;
+  line-height: 17px;
+  text-align: center;
+}
+.screen .screen-center .col-right .member .member-bd .member-tjb a{
+  font-size: 12px;
+  color: #ff5000;
+  font-weight: 400;
+  padding: 0 10px 0 20px;
+  background-color: #ffe4db;
+}
+.screen .screen-center .col-right .member .member-bd .member-tjb .gold{
+  display: inline-block;
+  width: 72px;
+  height: 17px;
+  line-height: 17px;
+  border-radius: 9px;
+  position: relative;
+}
+.screen .screen-center .col-right .member .member-bd .member-tjb .gold span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  display: block;
+  background:url("img/TB5-2.png") 0 -572.5px no-repeat;
+}
+.screen .screen-center .col-right .member .member-bd .member-tjb .vip{
+  margin-left: 2px;
+  display: inline-block;
+  width: 60px;
+  height: 17px;
+  line-height: 17px;
+  position: relative;
+  border-radius: 9px;
+}
+.screen .screen-center .col-right .member .login-head{
+  width: 275px;
+  height: 40px;
+  margin-top: 2px;
+  padding-left: 15px;
+}
+.screen .screen-center .col-right .member .login-head .login-box{
+  width: 275px;
+  height: 25px;
+  margin-top: 8px;
+}
+.screen .screen-center .col-right .member .login-head .login-box a{
+  width: 75px;
+  height: 25px;
+  line-height: 25px;
+  background-image: linear-gradient(to right,#ff5000 0,#ff6f06 100%);
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  margin-right: 7px;
+}
+.screen .screen-center .col-right .warning a{
+  position: relative;
+  padding-left: 82px;
+  color: #f40;
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  background: #ffe4dd;
+  font-size: 12px;
+}
+.screen .screen-center .col-right .notice-box{
+  width: 290px;
+  height: 98px;
+  padding-top: 10px;
+}
+.screen .screen-center .col-right .notice-box .notice-title{
+  position: relative;
+  margin-top: 4px;
+  padding: 0 8px;
+  width: 276px;
+  height: 24px;
+}
+.screen .screen-center .col-right .notice-box .notice-title li{
+  float: left;
+  width: 32px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin: 0 11px;
+}
+.screen .screen-center .col-right .notice-box .notice-title li a{
+  color: #3c3c3c;
+  font-size: 12px;
+}
+.screen .screen-center .col-right .notice-box .notice-text{
+  width: 290px;
+  height: 65px;
+}
+.screen .screen-center .col-right .notice-box .notice-text ul{
+  width: 266px;
+  height: 50px;
+  margin: 0 12px;
+  padding-top: 9px;
+  padding-bottom: 6px;
+}
+.screen .screen-center .col-right .notice-box .notice-text ul li{
+  float: left;
+  height: 25px;
+  width: 130px;
+}
+.screen .screen-center .col-right .notice-box .notice-text ul .first{
+  width: 260px;
+}
+.screen .screen-center .col-right .notice-box .notice-text ul li a{
+  font-size: 12px;
+  color: #333;
+}
+.screen .screen-center .col-right .notice-box .notice-text ul .first a{
+  color: #f40;
+}
+.screen .screen-center .col-right .moudle-box{
+  width: 290px;
+  height: 231px;
+  border-top: 1px solid #f4f4f4;
+}
+.screen .screen-center .col-right .moudle-box ul li{
+  float: left;
+  width: 70px;
+  height: 75px;
+  border: 1px solid #f4f4f4;
+}
+.screen .screen-center .col-right .moudle-box ul li a{
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+  display: block;
+}
+.screen .screen-center .col-right .moudle-box ul li a span{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("img/TB5-2.png") 100% 100% no-repeat;
+  margin-top: 11px;
+}
+.screen .screen-center .col-right .moudle-box ul li a .pic1{
+  background-position: 0 0;
+}
+.screen .screen-center .col-right .moudle-box ul li a .pic2{
+  background-position: 0 -87px;   
+}
+.screen .screen-center .col-right .moudle-box ul li a .pic3{
+  background-position: 0 -44px;   
+}
+.screen .screen-center .col-right .moudle-box ul li a .pic4{
+  background-position: 0 -132px;   
+}
+.screen .screen-center .col-right .moudle-box ul li a .pic5{
+  background-position: 0 -176px;   
+}
+.screen .screen-center .col-right .moudle-box ul li a .pic6{
+  background-position: 0 -220px;   
+}
+.screen .screen-center .col-right .moudle-box ul li a .pic7{
+  background-position: 0 -264px;   
+}
+.screen .screen-center .col-right .moudle-box ul li a .pic8{
+  background-position: 0 -308px;   
+}
+.screen .screen-center .col-right .moudle-box ul li a .pic9{
+  background-position: 0 -352px;   
+}
+.screen .screen-center .col-right .moudle-box ul li a .pic10{
+  background-position: 0 -396px;   
+}
+.screen .screen-center .col-right .moudle-box ul li a .pic11{
+  background-position: 0 -440px;   
+}
+.screen .screen-center .col-right .moudle-box ul li a .pic12{
+  background-position: 0 -484px;   
+}
+.screen .screen-center .col-right .app{
+  width: 290px;
+  height: 110px;position: relative;
+}
+.screen .screen-center .col-right .app h3{
+  font-size: 14px;
+  width: 290px;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  padding-left: 14px;
+}
+.screen .screen-center .col-right .app h3 a{
+  position: absolute;
+  right: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+}
+.screen .screen-center .col-right .app ul{
+  height: 84px;
+  padding-left: 23px;
+  position: relative;
+}
+.screen .screen-center .col-right .app ul li{
+  float: left;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-right: 21px;
+  margin-bottom: 8px;
+}
+.screen .screen-center .col-right .app ul li a img{
+  width: 32px;
+  height: 32px;
 }
