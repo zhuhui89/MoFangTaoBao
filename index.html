@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -277,26 +276,42 @@
                         </div>
                         <div class="core">
                             <div class="bth-promo">
-                                <a href="#">
-                                    <img src="img/TB1-1.jpg" alt="淘宝图1">
+                                <div class="promo-slideshow">
+                                <a href="#" class="promo-pic">
+                                    <img src="img/TB1-1.jpg" alt="">
                                 </a>
+                                <a href="#" class="promo-pic">
+                                    <img src="img/TB1-2.jpg" alt="">
+                                </a>
+                                <a href="#" class="promo-pic">
+                                    <img src="img/TB1-3.jpg" alt="">
+                                </a>
+                                <a href="#" class="promo-pic">
+                                    <img src="img/TB1-4.jpg" alt="">
+                                </a>
+                                <a href="#" class="promo-pic">
+                                    <img src="img/TB1-5.jpg" alt="">
+                                </a>
+                                </div>
                                 <ul>
-                                        <li>
-                                            <a href="#"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"></a>
-                                        </li>
-                                     </ul>
+                                    <li class="select select-bg">
+                                        <a href="#"></a>
+                                    </li>
+                                    <li class="select">
+                                        <a href="#"></a>
+                                    </li>
+                                    <li class="select">
+                                        <a href="#"></a>
+                                    </li>
+                                    <li class="select">
+                                        <a href="#"></a>
+                                    </li>
+                                    <li class="select">
+                                        <a href="#"></a>
+                                    </li>
+                                </ul>
+                                <div class="slidebtn btn-left">&lt;</div>
+                                <div class="slidebtn btn-right">&gt;</div>
                             </div>
                             <div class="bth-tmall">
                                 <div class="bth-tmallhead">
@@ -546,20 +561,7 @@
             </div>
         </div>
     </div>
-    <script>
-        //下拉菜单
-        function XiaLa(liId,ulId){
-            var liR = document.getElementById(liId);
-            var ulR = document.getElementById(ulId);
-            liR.onmouseover = function(){
-                ulR.style.display = "block";
-            }
-            liR.onmouseout = function(){
-                ulR.style.display = "none";
-            }
-        }
-        XiaLa("region","region-ul");
-        XiaLa("region1","region-ul1");
-    </script>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
