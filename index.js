@@ -11,6 +11,7 @@ function XiaLa(liId,ulId){
 }
 XiaLa("region","region-ul");
 XiaLa("region1","region-ul1");
+//轮播图
 var i = 0;
 var slideShow;
 $(function(){
