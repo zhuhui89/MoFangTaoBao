@@ -25,7 +25,7 @@ $(function(){
     $(".btn-left").click(function(){
         clearInterval(slideShow);
         if(i == 0){
-            i=6;
+            i=5;
         }
         i--;
         SlideShowshow();
@@ -33,7 +33,7 @@ $(function(){
     });
     $(".btn-right").click(function(){
         clearInterval(slideShow);
-        if(i == 6){
+        if(i == 4){
             i=-1;
         }
         i++;
@@ -48,7 +48,7 @@ function SlideShowshow(){
 function SlideShowTime(){
     slideShow = setInterval(function(){
         i++;
-        if(i == 6){
+        if(i == 5){
             i = 0;
         }
         SlideShowshow();

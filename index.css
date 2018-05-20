@@ -360,10 +360,17 @@
   position: absolute;
   top: 50%;
   background-color: rgba(0,0,0,.3);
+  text-align: center;
+}
+.screen .screen-center .main .main-inner .core .bth-promo .btn-left{
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 .screen .screen-center .main .main-inner .core .bth-promo .btn-right{
   position: absolute;
   right: 0;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
 }
 .screen .screen-center .main .main-inner .core .bth-tmall {
   width: 520px;
