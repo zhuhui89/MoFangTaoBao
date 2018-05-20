@@ -15,6 +15,8 @@ XiaLa("region1","region-ul1");
 var i = 0;
 var slideShow;
 $(function(){
+    $(".slidebtn").hide();
+    $(".bth-promo").hover(function(){$(".slidebtn").show();},function(){$(".slidebtn").hide();});
     $(".promo-pic").eq(0).show().siblings().hide();
     SlideShowTime();
     $(".select").click(function(){
